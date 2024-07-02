@@ -1,15 +1,22 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&family=Montserrat:wght@700&display=swap');
 
 /* CSS Variables */
 :root {
-    --primary-color: #1E90FF;
-    --secondary-color: #FFA07A;
-    --background-color: #F0F8FF;
-    --text-color: #333;
-    --accent-color: #FF6347;
-    --font-family: 'Roboto', sans-serif;
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    
+    --nav-bg-color: var(--primary-color);
+    --nav-link-color: white;
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-bg-color: var(--accent1-color);
 }
+
 
 body {
     font-family: var(--font-family);
@@ -46,6 +53,7 @@ nav a {
 .hero img {
     width: 100%;
     display: block;
+    height: auto;
 }
 
 .hero h1 {
