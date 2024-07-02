@@ -1,0 +1,118 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-color: #1E90FF;
+    --secondary-color: #FFA07A;
+    --background-color: #F0F8FF;
+    --text-color: #333;
+    --accent-color: #FF6347;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero article img {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 150px;
+    height: auto;
+}
+
+.hero article p {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: var(--accent-color);
+}
+
+section img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
