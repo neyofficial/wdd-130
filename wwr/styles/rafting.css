@@ -153,6 +153,124 @@ section img {
     display: grid;
     grid-template-columns: repeat(auto-fill, margin-bottom);
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#map iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.employee {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.employee img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.employee p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #140101;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+form fieldset legend {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form button[type="submit"]:focus,
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: var(--primary-color);
     color: white;
