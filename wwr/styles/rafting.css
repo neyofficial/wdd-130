@@ -309,7 +309,8 @@ h2 {
 .hero {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(10, 2, 2);
+    font-size: 0.4em;
 }
 
 .hero img {
@@ -322,8 +323,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    background: rgba(221, 205, 205, 0.5)
 }
 
 .newsletter-signup {
